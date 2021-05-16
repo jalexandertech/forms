@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+}
+h1{
+   font-weight: 700; 
+   font-size: 64px;
+   color: #030303;
+   letter-spacing: 8px;
+}
+
+.wave{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* flexbox */
+.container{
+    width: 1920px;
+    height: 100vh;
+    display: flex;
+    
+}
+.wrapper{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+
+}
+.img img{
+    
+    width: 455px;
+}
+.img{
+    position: absolute;
+    top: 58%;
+
+}
+
+.avatar{
+    width: 100px;
+    padding: 25px 0;
+}
+
+form{
+
+    border-radius: 40px;
+    box-shadow: 5px 8px 5px 5px rgba(34, 197, 148, 0.3);
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 80px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+p{
+    font-size: 26px;
+    padding: 20px 20px;
+    line-height: 40px;
+}
+ul{
+    padding: 0px 100px;
+}
+.resources{
+    margin-left: 15%;
+    width: 45%;
+    height: 400px;
+    padding: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #01a37d;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #01a37d;
+}
+a:hover{
+    color: #56E4C3;
+}
+
+a{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.input{
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+#emailHelp{
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #01a37d;
+}
+
+.forgot-password{
+    font-size: 15px;
+    padding: 10px 0;
+}
+input{
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #01a37d;
+    border-style: none;
+    color: #ffffff;
+}

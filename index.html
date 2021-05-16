@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Focus on Web Design | Forms</title>
+</head>
+
+<body>
+    <!-- In this assignment I will utilize Flexbox to have two columns. One column having useful resources with brief descriptions. \
+        The other column I will add my form based on what I have learned.  -->
+
+    <img src="img/wave.png" alt="" class="wave">
+    <div class="container">
+        <div class="img">
+            <img src="img/background-img.svg" alt="">
+        </div>
+
+        <!-- Column One -->
+            <div class="resources">
+                <h1>Useful Resources</h1>
+                <p>Here are some resources to utilize when creating your own web form. These resources will provide
+                    explanation
+                    on how to design a form,
+                    how to collect user input with a HTML form, and describe how data is sent to a server. </p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">Learn web development | Web
+                            forms</a>
+                    </li>
+                    <li><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></li>
+                    <li><a href="https://www.w3schools.com/css/css_form.asp">CSS Forms</a></li>
+                </ul>
+            </div>
+            <!-- Column Two -->
+            <form>
+                <img src="img/avatar.svg" alt="" class="avatar">
+                <h2>Welcome</h2>
+                <div class="input">
+                    <label for="email" class="form-label" aria-required="true">Email Address: </label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+                </div>
+                <div class="input">
+                    <label for="password" class="form-label" aria-required="true">Password: </label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <a href="#"class="forgot-password">Forgot Password?</a>
+                <button type="submit" class="btn">Log In</button>
+            </form>
+    </div>
+</body>
+</body>
+
+</html>
