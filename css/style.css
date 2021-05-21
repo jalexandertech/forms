@@ -12,9 +12,9 @@ body{
 }
 h1{
    font-weight: 700; 
-   font-size: 64px;
+   font-size: 40px;
    color: #030303;
-   letter-spacing: 8px;
+   letter-spacing: 5px;
 }
 
 .wave{
@@ -27,10 +27,9 @@ h1{
 
 /* flexbox */
 .container{
-    width: 1920px;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    
+    display: flex; 
 }
 .wrapper{
     display: flex;
@@ -40,7 +39,7 @@ h1{
 }
 .img img{
     
-    width: 455px;
+    width: 338px;
 }
 .img{
     position: absolute;
@@ -50,26 +49,27 @@ h1{
 
 .avatar{
     width: 100px;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 form{
 
     border-radius: 40px;
     box-shadow: 5px 8px 5px 5px rgba(34, 197, 148, 0.3);
-    height: 50%;
-    margin-top: 10%;
+    height: 60%;
+    margin-top: 15px;
     margin-left: 80px;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 400px;
+    background-color: #fafafa;
 }
 
 p{
-    font-size: 26px;
-    padding: 20px 20px;
+    font-size: 25x;
+    padding: 20px 0;
     line-height: 40px;
 }
 ul{
@@ -96,7 +96,7 @@ a:hover{
 }
 
 a{
-    font-size: 30px;
+    font-size: 15px;
 }
 
 h2{
@@ -133,3 +133,77 @@ button{
     border-style: none;
     color: #ffffff;
 }
+
+.description{
+    position: absolute;
+    top:65%;
+    bottom: 0;
+    left: 50%;
+   width: 700px;
+}
+.description p{
+    font-size: 13px;
+}
+
+span{
+    color: #01a37d;
+    font-weight: 700;
+}
+
+.email{
+    text-align: center;
+   position: absolute;
+   bottom: 0;
+   left: 45%;
+   width: 100%;
+   height: 2.5rem;
+
+   font-size: 18px;
+   font-weight: 700;
+}
+
+/* Media Queries */
+
+
+/* Larger display */
+@media screen and (min-width: 1024px) {
+
+    p{
+        font-size: 15px;
+    }
+    a{
+        font-size: 18px;
+    }
+    form{
+       margin-left: 5%;
+    }
+    .description p{
+        font-size: 12px;
+        width: 700px;
+    }
+    .img img{
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1498px) {
+
+    p{
+        font-size: 18px;
+    }
+    a{
+        font-size: 25px;
+    }
+    form{
+       margin-left: 10%;
+    }
+    .description p{
+        font-size: 12.5px;
+       
+    }
+    .img img{
+        width: 480px;
+    }
+}
+
+/* Small display */
